@@ -1,0 +1,30 @@
+/* CLEAN VITE TEMPLATE RESET */
+
+/* REMOVE ALL BLUE COLORS */
+a, a:visited, a:hover, a:active {
+  color: inherit !important;
+}
+
+/* OPTIONAL VITE LOGO ANIMATION (SAFE) */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em rgba(100, 108, 255, 0.67));
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.67));
+}
+
+/* CARD class from Vite template (safe) */
+.card {
+  padding: 2em;
+}
+
+/* DOCS CLASS */
+.read-the-docs {
+  color: #888;
+}
