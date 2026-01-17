@@ -72,7 +72,7 @@ The Academic ERP (Enterprise Resource Planning) system is a comprehensive web ap
 
 ### Database
 - **Type**: MySQL
-- **Database Name**: ESDPROJECT
+- **Database Name**: erp
 - **Connection**: JDBC via HikariCP connection pool
 
 ---
